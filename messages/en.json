@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Build Amazing Apps with Our Platform",
+    "subtitle": "The complete solution for modern application development. Fast, reliable, and scalable.",
+    "cta": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Powerful Features",
+    "subtitle": "Everything you need to build and scale your application",
+    "feature1": {
+      "title": "Lightning Fast",
+      "description": "Optimized performance ensures your application runs smoothly at any scale."
+    },
+    "feature2": {
+      "title": "Secure by Default",
+      "description": "Built-in security features to protect your data and users."
+    },
+    "feature3": {
+      "title": "Easy Integration",
+      "description": "Seamlessly integrate with your existing tools and workflows."
+    },
+    "feature4": {
+      "title": "24/7 Support",
+      "description": "Our team is always here to help you succeed."
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that's right for you",
+    "starter": {
+      "name": "Starter",
+      "price": "$9",
+      "period": "/month",
+      "features": [
+        "Up to 10 projects",
+        "Basic support",
+        "1GB storage",
+        "Community access"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$29",
+      "period": "/month",
+      "popular": "Most Popular",
+      "features": [
+        "Unlimited projects",
+        "Priority support",
+        "50GB storage",
+        "Advanced analytics",
+        "Custom domains"
+      ],
+      "cta": "Get Started"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Custom",
+      "period": "",
+      "features": [
+        "Everything in Pro",
+        "Dedicated support",
+        "Unlimited storage",
+        "SLA guarantee",
+        "Custom integrations"
+      ],
+      "cta": "Contact Sales"
+    }
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "subtitle": "Join thousands of developers building amazing applications",
+    "button": "Start Building Now"
+  },
+  "footer": {
+    "company": "Company",
+    "about": "About",
+    "careers": "Careers",
+    "blog": "Blog",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "documentation": "Documentation",
+    "support": "Support",
+    "help": "Help Center",
+    "community": "Community",
+    "contact": "Contact Us",
+    "rights": "All rights reserved."
+  }
+}
