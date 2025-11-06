@@ -67,7 +67,7 @@ export function Pricing() {
               key={index}
               className={`relative p-8 rounded-2xl ${
                 plan.popular
-                  ? 'bg-gradient-to-br from-blue-600 to-purple-600 text-white shadow-2xl transform scale-105'
+                  ? 'bg-gradient-to-br from-green-600 to-emerald-600 text-white shadow-2xl transform scale-105'
                   : 'bg-white dark:bg-gray-800 border-2 border-gray-200 dark:border-gray-700'
               }`}
             >
@@ -83,7 +83,7 @@ export function Pricing() {
                 <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
                 <div className="flex items-baseline">
                   <span className="text-4xl font-bold">{plan.price}</span>
-                  <span className={`ml-2 ${plan.popular ? 'text-blue-100' : 'text-gray-600 dark:text-gray-400'}`}>
+                  <span className={`ml-2 ${plan.popular ? 'text-green-100' : 'text-gray-600 dark:text-gray-400'}`}>
                     {plan.period}
                   </span>
                 </div>
@@ -105,7 +105,7 @@ export function Pricing() {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span className={plan.popular ? 'text-blue-50' : ''}>
+                    <span className={plan.popular ? 'text-green-50' : ''}>
                       {feature}
                     </span>
                   </li>
@@ -115,8 +115,8 @@ export function Pricing() {
               <button
                 className={`w-full py-3 px-6 rounded-lg font-semibold transition-all ${
                   plan.popular
-                    ? 'bg-white text-blue-600 hover:bg-gray-100'
-                    : 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700'
+                    ? 'bg-white text-green-600 hover:bg-gray-100'
+                    : 'bg-gradient-to-r from-green-600 to-emerald-600 text-white hover:from-green-700 hover:to-emerald-700'
                 }`}
               >
                 {plan.cta}
