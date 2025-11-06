@@ -13,7 +13,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <a href="#" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg"></div>
+              <div className="w-8 h-8 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg"></div>
               <span className="text-xl font-bold">AppName</span>
             </a>
           </div>
@@ -21,25 +21,25 @@ export function Header() {
           <nav className="hidden md:flex items-center space-x-8">
             <a
               href="#home"
-              className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-sm font-medium hover:text-green-600 dark:hover:text-green-400 transition-colors"
             >
               {t('home')}
             </a>
             <a
               href="#features"
-              className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-sm font-medium hover:text-green-600 dark:hover:text-green-400 transition-colors"
             >
               {t('features')}
             </a>
             <a
               href="#pricing"
-              className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-sm font-medium hover:text-green-600 dark:hover:text-green-400 transition-colors"
             >
               {t('pricing')}
             </a>
             <a
               href="#contact"
-              className="text-sm font-medium hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-sm font-medium hover:text-green-600 dark:hover:text-green-400 transition-colors"
             >
               {t('contact')}
             </a>
